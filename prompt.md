@@ -1,1 +1,2 @@
-현재 시뮬레이션 구조에 맞게 src/axi4_burst_split.sv 시뮬레이션이 되도록 수정한 후 verilator로 정상적으로 동작하는지 확인해주세요.
+- 현재 시뮬레이션 구조에 맞게 src/axi4_burst_split.sv 시뮬레이션이 되도록 수정한 후 verilator로 정상적으로 동작하는지 확인해주세요.
+- axi4_burst_split 전용 TB를 test/에 추가해서, len_limit AXI-Lite write 후 burst 분할 동작까지 기능 검증해주세요.
