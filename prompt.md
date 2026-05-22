@@ -19,6 +19,8 @@
 
 - src/*_wrapper.sv systemverilog 파일을 분석한 후, block diagram을 포함하여 동일 경로에 *.sv.md 마크다운 파일로 만들어주세요.
   
+- doc/*.md 파일을 한국어로 번역한 후, 동일 경로에 *.kr.md 마크다운 파일로 만들어주세요.
+  
 ## GIT
 - Github에 PR을 생성해주세요.
 - 현재 브랜치를 master와 완전히 동일하게 리셋해주세요.
