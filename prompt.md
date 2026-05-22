@@ -19,3 +19,4 @@
 - axi4_burst_split 전용 TB를 test/에 추가해서, len_limit AXI-Lite write 후 burst 분할 동작까지 기능 검증해주세요.
 ## GIT
 - Github에 PR을 생성해주세요.
+- 현재 브랜치를 master와 완전히 동일하게 리셋해주세요.
