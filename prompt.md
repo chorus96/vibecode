@@ -9,6 +9,8 @@
   
 - axi4_burst_split 전용 TB를 test/에 추가해서, len_limit AXI-Lite write 후 burst 분할 동작까지 기능 검증해주세요.
 
+- scripts/verilator_sim.sh로 시뮬레이션 해주세요.
+
 ## AMD Custom IP
 - src/*.sv 파일들을 AMD custom IP로 packaging할 수 있도록 wrapper 모듈을 src/*_wrapper.sv 파일로 만들어주세요. 이때, Struct 타입 port와 parameter input을 flat port로 변경해주세요.
 
