@@ -34,3 +34,4 @@
 
 ## 보기
 - peripheral 데이터 사이즈를 PER_DATA_WIDTH로 parameter화 해주세요.
+- axi2per.sv의 peripheral port를 https://github.com/chorus96/per2axi/blob/master/src/per2axi.sv peripheral port와 완벽하게 연결할 수 있도록 수정해주세요.
