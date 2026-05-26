@@ -30,7 +30,7 @@
 ## GIT
 - Github에 PR을 생성해주세요.
 - 현재 브랜치를 master와 완전히 동일하게 리셋해주세요.
-- PR을 master beanch에 적용해주세요.
+- PR을 master branch에 적용해주세요.
 
 ## 보기
 - peripheral 데이터 사이즈를 PER_DATA_WIDTH로 parameter화 해주세요.
