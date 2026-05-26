@@ -21,7 +21,7 @@
 - src/axi_lite_regs.sv파일내 axi_lite_regs 모듈을 AMD custom IP로 packaging할 수 있도록 wrapper 모듈을 src/axi_lite_regs_wrapper.sv 파일로 만들어주세요.
     
 ## 문서화
-- *.sv systemverilog 파일을 분석한 후, block diagram을 포함하여 동일 경로에 *.sv.md 마크다운 파일로 만들어주세요.
+- *.sv systemverilog 파일을 분석한 후, block diagram을 포함하여 동일 경로에 *.sv.kr.md 마크다운 파일로 만들어주세요.
 
 - src/*_wrapper.sv systemverilog 파일을 분석한 후, block diagram을 포함하여 동일 경로에 *.sv.md 마크다운 파일로 만들어주세요.
   
