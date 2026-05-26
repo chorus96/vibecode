@@ -42,3 +42,4 @@
 - peripheral 데이터 사이즈를 PER_DATA_WIDTH로 parameter화 해주세요.
 - axi2per.sv의 peripheral port를 https://github.com/chorus96/per2axi/blob/master/src/per2axi.sv peripheral port와 완벽하게 연결할 수 있도록 수정해주세요.
 - PER_DATA_WIDTH=256, AXI_DATA_WIDTH=64 이고 AXI 4beat burst일때, 정상적으로 동작하는지 확인해주세요.
+- AXI_ADDR_WIDTH와 PER_ADDR_WIDTH가 같은 값이라야 하면 PER_ADDR_WIDTH는 AXI_ADDR_WIDTH로 할당시켜주세요.
