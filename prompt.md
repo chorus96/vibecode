@@ -19,6 +19,8 @@
 - per2axi 모듈을 AMD custom IP로 packaging 해서 IP폴더에 만들어 주세요. 이때 systemverilog 파일은 복사하지 말고 파일 경로로 추가해주세요.
 
 - src/axi_lite_regs.sv파일내 axi_lite_regs 모듈을 AMD custom IP로 packaging할 수 있도록 wrapper 모듈을 src/axi_lite_regs_wrapper.sv 파일로 만들어주세요.
+
+- src/axi2per.sv 파일을 AMD custom IP로 packaging할 수 있도록 변경해주세요.
     
 ## 문서화
 - *.sv systemverilog 파일을 분석한 후, block diagram을 포함하여 동일 경로에 *.sv.kr.md 마크다운 파일로 만들어주세요.
